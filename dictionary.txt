@@ -1,3 +1,4 @@
+18a825afbbe872f6138d07f16840c312ff971baa:pvp.muxcraft.eu
 447985e7ef8477134681d8589961480b171f73dc:ps.endercraft.com
 c78045f5aef524a3f899041269fa9daa3639c8bf:hub.endercraft.com
 7769862d9ededd5d68dbb3fa0e36eabea693737a:play.endercraft.com
