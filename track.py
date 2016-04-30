@@ -1,20 +1,17 @@
 import os
 import urllib2
 
-MONITOR = (
-    ("https://sessionserver.mojang.com/blockedservers", "files/blockedservers"),
-)
+file = open("files/blockedservers", "w")
+for line in urllib2.urlopen("https://sessionserver.mojang.com/blockedservers"):
+	found = False
+	for dict_line in open("dictionary.txt", "r"):
+		if line.strip() in dict_line.strip():
+			file.write(dict_line.strip() + "\n")
+			found = True
 
-for page in MONITOR:
-    print page[0],
-    try:
-        page_content = urllib2.urlopen(page[0]).read()
-        open(page[1], "w").write(page_content)
-        print "OK"
-    except:
-        print "FAILED"
+	if not found:
+		file.write(line.strip() + "\n")
 
-# Try to commit
 os.system("git add .")
 os.system("git commit -a -m \"Automatic update\"")
 os.system("git push -u origin master")
