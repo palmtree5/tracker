@@ -1,3 +1,7 @@
+c40f20149f3d694ef47c152f7bc21b1e16ff702d:play.menoxia.com
+7429bf7ad3c1f20d5443b2159f8c420556a5de6d:play.insanefactions.org
+5c0394de667213e400dd21ffe4370b05566da22a:mc.eldercraft.de
+954aeb4ee90feb42f30de0ec1a0e8685660a7336:epicpvp.eu
 7da791f6b551f2e763e1c61bbad2de7f13aee060:us.mineplex.com
 20ee3d00f32a5e7dc8d456b793828a8980ee838a:mc.hypixel.net
 f71d2762d4267cd0b3cefd502e6d6f016625a4b1:play.primemc.org
