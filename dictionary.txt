@@ -1,3 +1,6 @@
+447985e7ef8477134681d8589961480b171f73dc:ps.endercraft.com
+c78045f5aef524a3f899041269fa9daa3639c8bf:hub.endercraft.com
+7769862d9ededd5d68dbb3fa0e36eabea693737a:play.endercraft.com
 c40f20149f3d694ef47c152f7bc21b1e16ff702d:mc.diacraft.org
 7429bf7ad3c1f20d5443b2159f8c420556a5de6d:play.insanefactions.org
 5c0394de667213e400dd21ffe4370b05566da22a:mc.eldercraft.de
