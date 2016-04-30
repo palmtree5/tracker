@@ -1,3 +1,4 @@
+c40f20149f3d694ef47c152f7bc21b1e16ff702d:mc.diacraft.org
 7429bf7ad3c1f20d5443b2159f8c420556a5de6d:play.insanefactions.org
 5c0394de667213e400dd21ffe4370b05566da22a:mc.eldercraft.de
 954aeb4ee90feb42f30de0ec1a0e8685660a7336:epicpvp.eu
