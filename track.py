@@ -1,14 +1,18 @@
 import os
 import urllib2
 
-file = open("blockedservers", "w")
+dictionary = open("support/dictionary", "r")
+lines = map(lambda l: l.strip(), list(dictionary.read().splitlines()))
 
-for line in urllib2.urlopen("https://sessionserver.mojang.com/blockedservers"):
-	found = False
-	for dict_line in open("support/dictionary", "r"):
-		if line.strip() in dict_line.strip():
-			file.write(dict_line.strip() + "\n")
-			found = True
+with open("blockedservers", "w+") as file:
 
-	if not found:
-		file.write(line.strip() + "\n")
+    for line in urllib2.urlopen("https://sessionserver.mojang.com/blockedservers"):
+        line = line.strip()
+        found = False
+        for dict_line in lines:
+            if line in dict_line:
+                file.write(dict_line + "\n")
+                found = True
+
+        if not found:
+            file.write(line + "\n")
